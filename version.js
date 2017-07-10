@@ -128,9 +128,9 @@
                     groups = 3;
                     break;
             }
-            if (groups === 0) {
-                return str == search;
-            }
+            //if (groups === 0) {
+            //    return str == search;
+            //}
             var parts = search.split(".");
             var numbers = 0;
             for (var p = parts.length; p > 0; p--) {
