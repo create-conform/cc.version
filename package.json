@@ -1,6 +1,6 @@
 {
   "name": "cc.version",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "title": "Semantic Version String Processing And Validation Module",
   "description": "Library for processing and validating semantic version strings.",
   "license": "Apache-2.0",

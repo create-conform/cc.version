@@ -111,7 +111,7 @@
                 return;
             }
             if (!search) {
-                search = "";
+                return true;
             }
             var strRes = str.split("/");
             str = strRes[0];
