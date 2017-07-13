@@ -107,8 +107,11 @@
             });
         };
         this.compare = function(str, search, opt_upgradable) {
-            if (!str || !search) {
+            if (!str) {
                 return;
+            }
+            if (!search) {
+                search = "";
             }
             var strRes = str.split("/");
             str = strRes[0];
