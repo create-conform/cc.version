@@ -1,14 +1,16 @@
 {
   "name": "cc.version",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "title": "Semantic Version String Processing And Validation Module",
   "description": "Library for processing and validating semantic version strings.",
   "license": "Apache-2.0",
-  "main": "version.js",
-  "pkxDependencies": [
-    {
-      "package": "cc.validate.0.1",
-      "optional": true
-    }
-  ]
+  "pkx" : {
+    "main": "version.js",
+    "dependencies": [
+      {
+        "package": "cc.validate.0.2",
+        "optional": true
+      }
+    ]
+  }
 }
